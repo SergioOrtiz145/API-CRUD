@@ -31,5 +31,6 @@ public class SoftwareEngineerController {
     @PutMapping("{id}")
     public void updateSoftwareEngineer(@RequestBody SoftwareEngineer softwareEngineer, @PathVariable Integer id) {
         softwareEngineerService.updateSoftwareEngineerbyId(id, softwareEngineer);
+
     }
 }
